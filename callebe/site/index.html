@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Notas</title>
+    <script>
+        function enviar(m){
+            document.getElementById("mens").innerHTML += `
+            <p>
+                ${m}
+            <\p>
+            `
+        }
+    </script>
+</head>
+<body>
+    <div class="mens"></div>
+    <input type="text" id="input">
+    <button onclick="eviar('oi')">enviar</button>
+</body>
+</html>

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas e Formulários</title>
+    <link rel="incon" href="Pikachu.jpg">
+</head>
+<body>
+
+    <h1>Tabelas e Formulários</h1>
+
+    <table border="4px">
+        <tr>
+            <th colspan="4">Números de 1 a 10</th>
+        </tr>
+        <tr>
+            <td rowspan="3">1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>6</td>
+            <td>7</td>
+        </tr>
+        <tr>
+            <td>8</td>
+            <td>9</td>
+            <td>10</td>
+        </tr>
+    </table>
+
+    <br>
+
+    <hr>
+
+    <h1>Formulários</h1>
+
+    <form>
+        <input type="text" value="Nome: " disabled> <br>
+        <input type="password" minlength="8" maxlength="20"> <br>
+        <input type="number" min="0" max="100"> <br>
+        <input type="email" placeholder="Digite seu e-mail" required> <br> <br>
+        <input type="file"> <br> <br>
+        <input type="datetime-local" readonly> <br> <br>
+        <input type="date"> <br> <br>
+        <input type="range"> <br> <br>
+        <input type="color" > <br> <br>
+        <input type="checkbox"> Inglês
+        <input type="checkbox"> Francês
+        <input type="checkbox" checked> Português <br> <br>
+        <input type="radio" name="gênero"> Masculino
+        <input type="radio" name="gênero"> Feminino 
+        <input type="radio" name="gênero"> Outro gênero  <br> <br>
+
+        <select name="" id="">
+            <option> Churrasco </option>
+            <option> Sushi </option>
+        </select> <br> <br>
+
+        <textarea>Meu feedback:</textarea>
+    </form>
+
+    <button>Enviar</button>
+
+    <!-- 
+        value
+        readonly
+        disabled
+        maxlenght / minlenght
+        min / max
+        placeholder
+        required
+        checked
+    -->
+
+</body>
+</html>
